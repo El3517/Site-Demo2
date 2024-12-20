@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant";
+}
+body{
+    background-color: black;
+}
+.hero{
+    background-image: url(./img/more\ black\ hat.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6 );
+    min-height: 90vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 90px;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+nav a:hover{
+    color: rgb(212, 212, 136);
+}
+nav button{
+    height: 100%;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-right: 50px;
+    border: 1px;
+    border-radius: 7px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+nav button:hover{
+    color: rgb(212, 212, 136);
+}
+.logo{
+    position: absolute;
+    height: auto;
+    left: 100px;
+    width: 150px;
+    margin-top: 10px;
+}
+.hero-txt{
+    padding-top: 180px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.hero-txt-2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.exp-btn{
+    height: 100%;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 470px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 7px 0 7px 0;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+}
+.exp-btn:hover{
+    background-color: white;
+    color: black;
+}
+.sec-section{
+    background-color: #272525;
+    color: #C2A57E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 32px;
+}
+.text-content h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.text-content p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    margin-right: 80px;
+}
+.read-more{
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #C2A57E;
+    border-radius: 7px 0 7px 0;
+    background-color: transparent;
+    color: #C2A57E;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.read-more:hover{
+    background-color: #C2A57E;
+    color: black;
+}
+.image-content{
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+    position: relative;
+}
+.image-top{
+    position: absolute;
+    width: 200px;
+    right: 280px;
+    bottom: 50px;
+    z-index: 1;
+}
+.image-bottom{
+    width: 100%;
+    object-fit: contain;
+    margin-right: 80px;
+}
+.third-section{
+    background-color: #C2A57E;
+    color: #272525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    padding: 32px;
+}
+.sec-text-content h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+    /* margin-left: 80px; */
+}
+.sec-text-content h5{
+    margin-top: 30px;
+    font-size: 15px;
+    /* margin-left: 80px; */
+}
+.sec-text-content p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    /* margin-left: 80px; */
+}
+.read-more-2{
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid #272525;
+    border-radius: 7px 0 7px 0;
+    background-color: transparent;
+    color: #272525;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* margin-left: 80px; */
+}
+.read-more-2:hover{
+    background-color: #272525;
+    color: #C2A57E;
+}
+.sec-image-content{
+    display: flex;
+    flex-direction: row;
+    gap: 1;
+    position: relative;
+}
+.image-top-2{
+    width: 200px;
+    position: absolute;
+    left: 350px;
+    bottom: 50px;
+    z-index: 1;
+}
+.image-bottom-2{
+    width: 75%;
+    object-fit: contain;
+    /* margin-right: 60px; */
+}
+.fourth-section{
+    background-color: #272525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    padding: 32px;
+}
+.carousel-indicators{
+    bottom: -60px;
+}
+.carousel-control-prev, .carousel-control-next{
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+}
+.carousel-control-prev-icon{
+    width: 20px;
+    height: 20px;
+    left: -150px;
+}
+.carousel-control-next-icon{
+    width: 20px;
+    height: 20px;
+    right: -150px;
+}
+.fifth-section{
+    background-image: url(./img/woman-laying-down-sexy-portrait-preview.jpg);
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+.fourth-hero-txt{
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.second-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 80vh;
+}
+.section-container{
+    padding-top: 100px;
+}
+.footer{
+    min-height: 40vh;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.footer-logo{
+    width: 300px;
+    margin-left: 420px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+.contact-popup{
+    width: 600px;
+    background-color: white;
+    border-radius: 6px;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: left;
+    padding: 0 30px 30px;
+    color: #333;
+    transition: transform 0.4s, top 0.4s;
+    z-index: 1100;
+    visibility: hidden;
+}
+.open-contact-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(0%, -40%) scale(1);
+}
+.form-control{
+    width: 500px;
+    border-radius: 0;
+}
+label{
+    color: black;
+}
+.form-head{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.btn{
+    background-color: #272525;
+    border-radius: 0;
+    color: gold;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #272525;
+}
+.btn:hover{
+    background-color: gold;
+    color: #272525;
+}
+.close-button{
+    position: absolute;
+    top: -10px;
+    left: 580px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
